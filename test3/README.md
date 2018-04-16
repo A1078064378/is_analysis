@@ -215,8 +215,8 @@ package "图书管理系统类包" #DDDDDD {
 ```
 @startuml
 	object 读者 {
-	 	username = "orcl"
-		password = "orcl"
+	 	username = "wjb"
+		password = "wjb"
 	}
 @enduml
 ```
