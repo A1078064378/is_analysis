@@ -1,8 +1,9 @@
-## 实验四：图书管理系统的顺序图
 
 |学号|班级|姓名|照片|
 |:-------:|:-------------: | :----------:|:---:|
 |201510414120|软件(本)15-1|魏金冰|![flow1](timg.jpg)|
+
+## 实验四：图书管理系统的顺序图
 
 ### 1.读者信息安全维护
 
@@ -12,23 +13,6 @@
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
 
-skinparam sequence {
-	ArrowColor DeepSkyBlue
-	ActorBorderColor DeepSkyBlue
-	LifeLineBorderColor blue
-	LifeLineBackgroundColor #A9DCDF
-	
-	ParticipantBorderColor DeepSkyBlue
-	ParticipantBackgroundColor DodgerBlue
-	ParticipantFontName Impact
-	ParticipantFontSize 17
-	ParticipantFontColor #A9DCDF
-	
-	ActorBackgroundColor aqua
-	ActorFontColor DeepSkyBlue
-	ActorFontSize 17
-	ActorFontName Aapex
-}
 
 hide footbox
 title __维护读者信息__ 用例
@@ -74,24 +58,6 @@ end
 @startuml
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
-
-skinparam sequence {
-	ArrowColor DeepSkyBlue
-	ActorBorderColor DeepSkyBlue
-	LifeLineBorderColor blue
-	LifeLineBackgroundColor #A9DCDF
-	
-	ParticipantBorderColor DeepSkyBlue
-	ParticipantBackgroundColor DodgerBlue
-	ParticipantFontName Impact
-	ParticipantFontSize 17
-	ParticipantFontColor #A9DCDF
-	
-	ActorBackgroundColor aqua
-	ActorFontColor DeepSkyBlue
-	ActorFontSize 17
-	ActorFontName Aapex
-}
 
 hide footbox
 title __借出图书__ 用例
@@ -140,23 +106,6 @@ end
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
 
-skinparam sequence {
-	ArrowColor DeepSkyBlue
-	ActorBorderColor DeepSkyBlue
-	LifeLineBorderColor blue
-	LifeLineBackgroundColor #A9DCDF
-	
-	ParticipantBorderColor DeepSkyBlue
-	ParticipantBackgroundColor DodgerBlue
-	ParticipantFontName Impact
-	ParticipantFontSize 17
-	ParticipantFontColor #A9DCDF
-	
-	ActorBackgroundColor aqua
-	ActorFontColor DeepSkyBlue
-	ActorFontSize 17
-	ActorFontName Aapex
-}
 
 hide footbox
 title __维护图书__ 用例
@@ -204,23 +153,6 @@ end
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
 
-skinparam sequence {
-	ArrowColor DeepSkyBlue
-	ActorBorderColor DeepSkyBlue
-	LifeLineBorderColor blue
-	LifeLineBackgroundColor #A9DCDF
-	
-	ParticipantBorderColor DeepSkyBlue
-	ParticipantBackgroundColor DodgerBlue
-	ParticipantFontName Impact
-	ParticipantFontSize 17
-	ParticipantFontColor #A9DCDF
-	
-	ActorBackgroundColor aqua
-	ActorFontColor DeepSkyBlue
-	ActorFontSize 17
-	ActorFontName Aapex
-}
 
 hide footbox
 title __归还图书__ 用例
@@ -269,23 +201,6 @@ end
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
 
-skinparam sequence {
-	ArrowColor DeepSkyBlue
-	ActorBorderColor DeepSkyBlue
-	LifeLineBorderColor blue
-	LifeLineBackgroundColor #A9DCDF
-	
-	ParticipantBorderColor DeepSkyBlue
-	ParticipantBackgroundColor DodgerBlue
-	ParticipantFontName Impact
-	ParticipantFontSize 17
-	ParticipantFontColor #A9DCDF
-	
-	ActorBackgroundColor aqua
-	ActorFontColor DeepSkyBlue
-	ActorFontSize 17
-	ActorFontName Aapex
-}
 
 hide footbox
 title __维护管理员信息__ 用例
@@ -334,23 +249,6 @@ end
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
 
-skinparam sequence {
-	ArrowColor DeepSkyBlue
-	ActorBorderColor DeepSkyBlue
-	LifeLineBorderColor blue
-	LifeLineBackgroundColor #A9DCDF
-	
-	ParticipantBorderColor DeepSkyBlue
-	ParticipantBackgroundColor DodgerBlue
-	ParticipantFontName Impact
-	ParticipantFontSize 17
-	ParticipantFontColor #A9DCDF
-	
-	ActorBackgroundColor aqua
-	ActorFontColor DeepSkyBlue
-	ActorFontSize 17
-	ActorFontName Aapex
-}
 
 hide footbox
 title __查询图书__ 用例
@@ -389,23 +287,6 @@ activate 业务控制
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
 
-skinparam sequence {
-	ArrowColor DeepSkyBlue
-	ActorBorderColor DeepSkyBlue
-	LifeLineBorderColor blue
-	LifeLineBackgroundColor #A9DCDF
-	
-	ParticipantBorderColor DeepSkyBlue
-	ParticipantBackgroundColor DodgerBlue
-	ParticipantFontName Impact
-	ParticipantFontSize 17
-	ParticipantFontColor #A9DCDF
-	
-	ActorBackgroundColor aqua
-	ActorFontColor DeepSkyBlue
-	ActorFontSize 17
-	ActorFontName Aapex
-}
 
 hide footbox
 title __查询借阅信息__ 用例
@@ -460,23 +341,6 @@ end
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
 
-skinparam sequence {
-	ArrowColor DeepSkyBlue
-	ActorBorderColor DeepSkyBlue
-	LifeLineBorderColor blue
-	LifeLineBackgroundColor #A9DCDF
-	
-	ParticipantBorderColor DeepSkyBlue
-	ParticipantBackgroundColor DodgerBlue
-	ParticipantFontName Impact
-	ParticipantFontSize 17
-	ParticipantFontColor #A9DCDF
-	
-	ActorBackgroundColor aqua
-	ActorFontColor DeepSkyBlue
-	ActorFontSize 17
-	ActorFontName Aapex
-}
 
 hide footbox
 title __预定图书__ 用例
@@ -525,23 +389,6 @@ end
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
 
-skinparam sequence {
-	ArrowColor DeepSkyBlue
-	ActorBorderColor DeepSkyBlue
-	LifeLineBorderColor blue
-	LifeLineBackgroundColor #A9DCDF
-	
-	ParticipantBorderColor DeepSkyBlue
-	ParticipantBackgroundColor DodgerBlue
-	ParticipantFontName Impact
-	ParticipantFontSize 17
-	ParticipantFontColor #A9DCDF
-	
-	ActorBackgroundColor aqua
-	ActorFontColor DeepSkyBlue
-	ActorFontSize 17
-	ActorFontName Aapex
-}
 
 hide footbox
 title __取消预定__ 用例
