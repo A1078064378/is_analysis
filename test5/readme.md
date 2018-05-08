@@ -65,7 +65,7 @@
 - 功能：用于归还图书
 - 请求地址： http://localhost:8080/LibrarySystem/GET/book/xxx
 - 请求方法：GET
-- 请求参数：id(String)
+- 请求参数：id(int)
 
 |参数名称|必填|说明|
 |:-------:|:-------------: | :----------:|
