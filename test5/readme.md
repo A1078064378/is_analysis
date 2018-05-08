@@ -16,10 +16,8 @@
 |author|varchar(100)| |否|||  
 |publisher|varchar(100)| |否|||
 |price|float(100)| |否|||  
-|cnum|int(100)| |否|||
-|snum|int(100)| |否|||  
+|cnum|int(100)| |否||| 
 |summary|varchar(100)| |是|||
-|photo|varbinary(60000)| |是|||
 
 **1.2 读者表**
 
@@ -28,11 +26,7 @@
 |readerId|varchar(100)|主键|否|||
 |name|varchar(100)| |否|||  
 |password|varchar(100)| |否|||
-|sex|bit(1)| |否|||  
-|born|datetime(100)| |否|||
-|spec|varchar(100)| |否|||  
-|num|int(100)| |否|||
-|photo|varbinary(60000)| |否|||  
+
 
 **1.3 图书管理员表**
 
@@ -41,9 +35,6 @@
 |bookAdminId|varchar(100)|主键|否|||
 |name|varchar(100)| |否|||  
 |password|varchar(100)| |否|||
-|sex|bit(1)| |否|||  
-|born|datetime(100)| |否|||
-|photo|varbinary(60000)| |否|||  
 
 **1.3 超级管理员表**
 
@@ -52,9 +43,6 @@
 |superAdminId|varchar(100)|主键|否|||
 |name|varchar(100)| |否|||  
 |password|varchar(100)| |否|||
-|sex|bit(1)| |否|||  
-|born|datetime(100)| |否|||
-|photo|varbinary(60000)| |否|||  
 
 **1.4 借书表**
 
@@ -64,8 +52,6 @@
 |readerId|varchar(100)|外键|否|||  
 |bookId|varchar(100)|外键|否|||
 |ISBN|varchar(100)| |否|||  
-|lendConfirm|bit(1)| |否|||
-|returnRequest|bit(1)| |否|||  
 |ltime|datetime| |否|||  
 
 ## 2. 界面设计
@@ -97,8 +83,6 @@
             "id": "1",
             "bookid": "101",
             "ISBN": "987-012-19",
-            "lenConfirm": "ture",
-            "returnRequest": "ture",
             "ltime": "2018-01-19 00:00:00",
      },
     "msg": "响应成功"
