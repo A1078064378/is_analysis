@@ -17,11 +17,11 @@
 
 界面设计参见：https://zwdbox.github.io/is_analysis/test6/ui/index.html
     
-## 3. 用例图设计 [源码](src/UseCase.puml)
-![](UseCase.png)
+## 3. 用例图设计 [源码](src/yongli.puml)
+![](yongli.png)
 
-## 4. 类图设计 [源码](src/class.puml)
-![](./class.png)
+## 4. 类图设计 [源码](src/leitu.puml)
+![](leitu.png)
 
 ## 5. 数据库设计
 - ### [参见数据库设计](./数据库设计.md)
