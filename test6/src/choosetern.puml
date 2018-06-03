@@ -1,0 +1,7 @@
+@startuml
+title 选择学期用例的顺序图
+actor user
+user -> 管理平台:选择学期
+管理平台->user:返回该用户所选学期的内容
+
+@enduml
