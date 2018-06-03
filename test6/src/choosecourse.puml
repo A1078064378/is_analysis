@@ -1,0 +1,7 @@
+@startuml
+title 选择课程用例的顺序图
+actor user
+user -> 管理平台:选择课程
+管理平台->user:返回该用户所选课程的内容
+
+@enduml
