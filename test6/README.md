@@ -21,7 +21,7 @@
 ![](yongli.png)
 
 ## 4. 类图设计 [源码](src/leitu.puml)
-![](leitu.png)
+![](leitu1.png)
 
 ## 5. 数据库设计
 - ### [参见数据库设计](./数据库设计.md)
