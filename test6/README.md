@@ -20,7 +20,7 @@
 ## 3. 用例图设计 [源码](src/yongli.puml)
 ![](yongli.png)
 
-## 4. 类图设计 [源码](src/leitu.puml)
+## 4. 类图设计 [源码](src/leitu1.puml)
 ![](leitu1.png)
 
 ## 5. 数据库设计
