@@ -1,5 +1,5 @@
 # 接口：choosecourse  [返回](../README.md)
-用例： [选择学期](../yongli/选择课程.md)
+用例： [选择课程](../yongli/选择课程.md)
 
 - 接口名称：choosecourse
 
