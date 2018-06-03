@@ -1,0 +1,7 @@
+@startuml
+@startuml
+title 登出用例的顺序图
+actor user
+user -> 控制平台: 选择退出
+控制平台->登录界面:成功退出，回到登录界面
+@enduml
