@@ -34,5 +34,6 @@
 - ### [“修改密码”用例](./yongli/修改密码.md),[界面](https://A1078064378.github.io/is_analysis/test6/ui/information.html)
 - ### [“学生查看科目成绩”用例](./yongli/学生查看科目成绩.md),[界面](https://A1078064378.github.io/is_analysis/test6/ui/student.html)
 - ### [“学生查看实验多项得分”用例](./yongli/学生查看实验多项得分.md),[界面](https://A1078064378.github.io/is_analysis/test6/ui/duopingfen.html)
+- ### [“学生成绩列表”用例](./yongli/学生成绩列表.md),[界面](https://A1078064378.github.io/is_analysis/test6/ui/teacher.html)
 
 
