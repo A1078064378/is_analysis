@@ -1,0 +1,7 @@
+@startuml
+title 学生查看成绩的顺序图
+actor user
+user -> 管理平台:选择学期与课程
+管理平台->user:返回该学生所选课程所有实验成绩与评价
+
+@enduml
