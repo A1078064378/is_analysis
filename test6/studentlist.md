@@ -2,7 +2,7 @@
 用例： [学生成绩列表](../yongli/学生成绩列表.md)
 
 - 权限：
-    老师：可以看到RESULT
+    仅老师可查看
 
 - 功能：
     返回该学期该科目该实验下所有学生的成绩信息。
@@ -44,7 +44,7 @@
   |info|返回结果说明信息|
   |total|返回学生人数|
   |data|所有学生的数组|
-  |RESULT|成绩的汇总|
+  |RESULT|最终成绩|
   |GITHUB_USERNAME|GITHUB 用户名|
   |STUDENT_ID|学号|
   |NAME|真实姓名|
