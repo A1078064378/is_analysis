@@ -1,4 +1,4 @@
-# 接口：seescore  [返回](../README.md)
+# 接口：morescore  [返回](../README.md)
 用例： [学生查看实验多项得分](../yongli/学生查看实验多项得分.md)
 
 - 功能：
@@ -8,7 +8,7 @@
     学生：只能查看自己的成绩，即接口参数student_id必须等于登录学生的student_id
     
 - API请求地址： 
-    接口基本地址/v1/api/seeScore/<student_id>
+    接口基本地址/v1/api/moreScore/<student_id>
 
 - 请求方式 ：
     GET
