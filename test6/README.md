@@ -17,8 +17,8 @@
 
 界面设计参见：https://a1078064378.github.io/is_analysis/test6/ui/index.html
     
-## 3. 用例图设计 [源码](src/yongli.puml)
-![](yongli.png)
+## 3. 用例图设计 [源码](src/用例图.puml)
+![](用例图.png)
 
 ## 4. 类图设计 [源码](src/leitu1.puml)
 ![](leitu1.png)
